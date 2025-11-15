@@ -31,7 +31,7 @@
     },
     {
         "name": "fr",
-        "value": "06vngYi6SWORSYbl9.AWfF6yrCOAbmZIPuNPUs7Fj6ugDRooCCEpZ8T9WYcPNFwL_1boE.BohkFk..AAA.0.0.BpF0oJ.AWdWckR7ERhcb9yLLZ8pELfDTqI",
+        "value": "06vngYi6SWORSYbl9.AWckvFsFeNqt0B0v8pn0PSdkG95EWVGdljRjSBKhkVygWA85lnc.BohkFk..AAA.0.0.BpGNX2.AWdKoZxDacYkQn73JDCrIpipqeE",
         "domain": ".facebook.com",
         "hostOnly": false,
         "path": "/",
@@ -41,7 +41,7 @@
         "session": false,
         "firstPartyDomain": "",
         "partitionKey": null,
-        "expirationDate": 1770909961,
+        "expirationDate": 1771011318,
         "storeId": null
     },
     {
@@ -71,7 +71,7 @@
         "session": false,
         "firstPartyDomain": "",
         "partitionKey": null,
-        "expirationDate": 1768317962,
+        "expirationDate": 1768419320,
         "storeId": null
     },
     {
@@ -91,7 +91,7 @@
     },
     {
         "name": "fbl_st",
-        "value": "101024169%3BT%3A29385566",
+        "value": "101238390%3BT%3A29387255",
         "domain": ".facebook.com",
         "hostOnly": false,
         "path": "/",
@@ -101,7 +101,7 @@
         "session": false,
         "firstPartyDomain": "",
         "partitionKey": null,
-        "expirationDate": 1794669962,
+        "expirationDate": 1794771320,
         "storeId": null
     },
     {
@@ -146,7 +146,7 @@
         "session": false,
         "firstPartyDomain": "",
         "partitionKey": null,
-        "expirationDate": 1797693961,
+        "expirationDate": 1797795318,
         "storeId": null
     },
     {
@@ -181,7 +181,7 @@
     },
     {
         "name": "wl_cbv",
-        "value": "v2%3Bclient_version%3A2984%3Btimestamp%3A1763133961",
+        "value": "v2%3Bclient_version%3A2986%3Btimestamp%3A1763235319",
         "domain": ".facebook.com",
         "hostOnly": false,
         "path": "/",
@@ -191,7 +191,7 @@
         "session": false,
         "firstPartyDomain": "",
         "partitionKey": null,
-        "expirationDate": 1770909966,
+        "expirationDate": 1771011326,
         "storeId": null
     }
 ]
