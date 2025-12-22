@@ -37,7 +37,7 @@ module.exports = {
     // Si pas d'argument : afficher toutes les commandes
     if (!args[0]) {
       const categories = {};
-      let msg = `╔════════════════════╗\n║ 🌿 HELP. 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 🌿 ║\n╠════════════════════╣\n`;
+      let msg = `╔════════════════════╗\n║ 🥷 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 🪽 ║\n╠════════════════════╣\n`;
 
       for (const [name, cmd] of commands) {
         if (cmd.config.role > role) continue;
@@ -47,7 +47,7 @@ module.exports = {
       }
 
       for (const cat of Object.keys(categories).sort()) {
-        msg += `╔━━═[ ⚡ ${applyFont(cat.toUpperCase())} ⚡ ]══╗\n`;
+        msg += `╔━━═[ 🚫 ${applyFont(cat.toUpperCase())} 🪽 ]══╗\n`;
         for (const name of categories[cat].sort()) {
           msg += `┃ ✦ ${applyFont(name)}\n`;
         }
@@ -72,7 +72,7 @@ module.exports = {
     const roleText = {0:"All users",1:"Group admins",2:"Bot admins"}[cfg.role] || "Unknown";
     const usage = (cfg.guide?.en || "{pn} " + cfg.name).replace("{pn}", prefix);
 
-    const resp = `╔═══[ ⚽ ${applyFont(cfg.name.toUpperCase())} ⚽ ]══╗
+    const resp = `╔═══[ 🥷 ${applyFont(cfg.name.toUpperCase())} 🥷 ]══╗
 ┃ 💠 Version: ${cfg.version || "1.0"}
 ┃ 💠 Author: ${cfg.author}
 ┃ 💠 Role: ${roleText}
